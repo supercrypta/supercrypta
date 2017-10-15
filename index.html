@@ -12,6 +12,9 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
+     <link href="web/css/cryptodonate.css" rel="stylesheet"/>
+     <link href="web/css/cryptodonate.dark.css" rel="stylesheet"/>
+
   </head>
 
   <body>
@@ -32,16 +35,184 @@
               <p>
                 if you use it and like 'it, please consider making a small donation:
               </p>
+<!-- 
+              <div class="row">
+                  <div class="col-sm-6 col-md-3">
+                    <div class="btc"></div>
+                  </div>
+                  <div class="col-sm-6 col-md-3">
+                    <div class="eth"></div>
+                  </div>
+                  <div class="col-sm-6 col-md-3">
+                    <div class="ltc"></div>
+                  </div>
+                  <div class="col-sm-6 col-md-3">
+                    <div class="xmr"></div>
+                  </div>
+              </div> -->
 
-              <ul>
-                <li>Bitcoin: 1MYZDEpaE7157njrvq8QBmbrgUMB3SSuhx</li> 
-                <li>Litecoin: LQRBruBi9TDHj62U46DU3TNN6fXJrrDyJZ</li> 
-                <li>ETH: 0x4c77a2A8a570D0066A57a5Cf58bE590e7b9D1A5c</li> 
-                <li>IOTA: <small>I9MNUCRMPZPNAFGHGAPQOFBIKVHPWRDQAMYOHSN9QHD9LIESJOWKC9YSRHSRIEKRDMF9STBKRATZXDPLBSGRCLS9WX</small> </li> 
-              </ul>
+           
+ 
+      <div id="content">
+            <table>
+                <tbody>
+                    <tr>
+                        
+                        <td>
+                            <div class="btc">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="eth">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="ltc">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="xmr">
+                            </div>
+                        </td>
+                    </tr>
+                    
+                   
+                </tbody>
+            </table>
+        </div> 
+
+        <script>
+            !function(c){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.onload=c,t.src="web/cryptodonate.js";var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(t,e)}(function(){
+                    var btcElems = document.getElementsByClassName('btc');
+                    for(var i = 0;i < btcElems.length;i++) {
+                        var cd = new Fr.CryptoDonate({
+                            baseURL: 'web/',
+
+
+                            strings: {
+                                button: 'Bitcoin',
+                                buttonTitle: 'Donate {coinName}',
+                                coins: {
+                                    bitcoin: 'Bitcoin',
+                                    ethereum: 'Ether',
+                                    litecoin: 'Litecoin',
+                                    monero: 'Monero',
+                                },
+                                dialogHeader: 'Donate {coinName}',
+                                dialogHelper: 'Please use this {coin} address to donate. Thanks!',
+                                openInWallet: 'Click here to send this address to your wallet.'
+                            },
+
+
+
+                            address: '1MYZDEpaE7157njrvq8QBmbrgUMB3SSuhx',
+                            buttonLarge: btcElems[i].className.match('large') !== null,
+
+                            buttonClass: btcElems[i].className.match('dark') !== null ? 'dark' : '',
+                            dialogClass: btcElems[i].className.match('dark') !== null ? 'dark' : ''
+                        });
+                        cd.appendTo(btcElems[i]);
+                    }
+
+                    var ethElems = document.getElementsByClassName('eth');
+                    for(var i = 0;i < ethElems.length;i++) {
+                        var cd = new Fr.CryptoDonate({
+                            coin: 'ethereum',
+                            address: '0x4c77a2A8a570D0066A57a5Cf58bE590e7b9D1A5c',
+                            baseURL: 'web/',
+                            strings: {
+                                button: 'Ethereum',
+                                buttonTitle: 'Donate {coinName}',
+                                coins: {
+                                    bitcoin: 'Bitcoin',
+                                    ethereum: 'Ethereum',
+                                    litecoin: 'Litecoin',
+                                    monero: 'Monero',
+                                },
+                                dialogHeader: 'Donate {coinName}',
+                                dialogHelper: 'Please use this {coin} address to donate. Thanks!',
+                                openInWallet: 'Click here to send this address to your wallet.'
+                            },
+                            buttonLarge: ethElems[i].className.match('large') !== null,
+
+                            buttonClass: ethElems[i].className.match('dark') !== null ? 'dark' : '',
+                            dialogClass: ethElems[i].className.match('dark') !== null ? 'dark' : ''
+                        });
+                        cd.appendTo(ethElems[i]);
+                    }
+
+                    var ltcElems = document.getElementsByClassName('ltc');
+                    for(var i = 0;i < ethElems.length;i++) {
+                        var cd = new Fr.CryptoDonate({
+                            coin: 'litecoin',
+                            address: 'LQRBruBi9TDHj62U46DU3TNN6fXJrrDyJZ',
+                            baseURL: 'web/',
+                            strings: {
+                                button: 'Litecoin',
+                                buttonTitle: 'Donate {coinName}',
+                                coins: {
+                                    bitcoin: 'Bitcoin',
+                                    ethereum: 'Ether',
+                                    litecoin: 'Litecoin',
+                                    monero: 'Monero',
+                                },
+                                dialogHeader: 'Donate {coinName}',
+                                dialogHelper: 'Please use this {coin} address to donate. Thanks!',
+                                openInWallet: 'Click here to send this address to your wallet.'
+                            },
+                            buttonLarge: ltcElems[i].className.match('large') !== null,
+
+                            buttonClass: ltcElems[i].className.match('dark') !== null ? 'dark' : '',
+                            dialogClass: ltcElems[i].className.match('dark') !== null ? 'dark' : ''
+                        });
+                        cd.appendTo(ltcElems[i]);
+                    }
+
+                    var xmrElems = document.getElementsByClassName('xmr');
+                    for(var i = 0;i < ethElems.length;i++) {
+                        var cd = new Fr.CryptoDonate({
+                            coin: 'monero',
+                            address: '47cf2ggw9HCXHeNqqRjvu592mpxUci9cNTGfgHRGbkuGUhPMRHacSdE4xgEDf7KNKgACL8Y2pcLPHh3X6DjxjGjXB7Bq7Px',
+                            baseURL: 'web/',
+                            strings: {
+                                button: 'Monero',
+                                buttonTitle: 'Donate {coinName}',
+                                coins: {
+                                    bitcoin: 'Bitcoin',
+                                    ethereum: 'Ether',
+                                    litecoin: 'Litecoin',
+                                    monero: 'Monero',
+                                },
+                                dialogHeader: 'Donate {coinName}',
+                                dialogHelper: 'Please use this {coin} address to donate. Thanks!',
+                                openInWallet: 'Click here to send this address to your wallet.'
+                            },
+                            buttonLarge: xmrElems[i].className.match('large') !== null,
+
+                            buttonClass: xmrElems[i].className.match('dark') !== null ? 'dark' : '',
+                            dialogClass: xmrElems[i].className.match('dark') !== null ? 'dark' : ''
+                        });
+                        cd.appendTo(xmrElems[i]);
+                    }
+              });
+        </script>
+
+
+
+
+        <small style="padding-top: 20px">Cryptocurrency data from <a href="https://coinmarketcap.com" target="_blank">CoinMarketCap</a></small>
+
+
+
             
         </div>
+
+
+
     </div>
+
+
+
 
 
 
