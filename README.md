@@ -1,4 +1,4 @@
-# Super Crypta - 0.31
+# Super Crypta - 0.32
 
 Cryptocurrency portfolio for MacOS on Notification Center
 
