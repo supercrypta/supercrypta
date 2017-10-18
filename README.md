@@ -1,8 +1,8 @@
-# Super Crypta - 0.37
+# Super Crypta - 0.39
 
 Cryptocurrency portfolio for MacOS on Notification Center
 
-[Download](https://github.com/supercrypta/supercrypta/releases/download/0.37/Cryptonator.app.zip)
+[Download](https://github.com/supercrypta/supercrypta/releases/download/0.39/SuperCrypta.zip)
 
 
 Created this app to manage my cryptocurrencies and would like to share here.
