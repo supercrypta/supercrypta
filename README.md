@@ -2,7 +2,7 @@
 
 Cryptocurrency portfolio for MacOS on Notification Center
 
-[Download](https://github.com/supercrypta/supercrypta/releases/download/0.33/Cryptonator.app.zip)
+[Download](https://github.com/supercrypta/supercrypta/releases/download/0.35/Cryptonator.app.zip)
 
 
 Created this app to manage my cryptocurrencies and would like to share here.
@@ -11,7 +11,7 @@ A Stocks like application for Mac OS for cryptocurrency.
 
 You can see you portifolio value on USD, BTC, ETH and your native currency(ex: EUR, BRL, ect)
 
-Also have a nice BTC calculator 
+Also have a nice calculator 
 
 To install Just download the Cryptonator.app.zip and extract and run
 
