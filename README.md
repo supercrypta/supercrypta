@@ -21,13 +21,9 @@ It will be installed on Notification Center. Click Edit to add the 'SuperCrypta'
 Tested on MacOS 10.12
 
 
-![alt text](https://raw.githubusercontent.com/supercrypta/supercrypta/master/New.gif)
+![alt text](https://raw.githubusercontent.com/supercrypta/supercrypta/master/Imagem1.jpg)
 
-![alt text](https://raw.githubusercontent.com/supercrypta/supercrypta/master/Quantity.gif)
 
-![alt text](https://raw.githubusercontent.com/supercrypta/supercrypta/master/Hold.gif)
-
-![alt text](https://raw.githubusercontent.com/supercrypta/supercrypta/master/Calculator.gif)
 
 if you use it and like 'it, please consider making a donation
 
