@@ -2,7 +2,7 @@
 
 Cryptocurrency portfolio for MacOS on Notification Center
 
-[Download](https://github.com/supercrypta/supercrypta/releases/download/v0.48/SuperCrypta.zip)
+[Download](https://github.com/supercrypta/supercrypta/releases/download/v0.481/SuperCrypta.zip)
 
 
 Created this app to manage my cryptocurrencies and would like to share here.
