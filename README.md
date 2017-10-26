@@ -1,8 +1,8 @@
-# Super Crypta - 0.482
+# Super Crypta
 
 Cryptocurrency portfolio for MacOS on Notification Center
 
- - coming soon on mac app store
+![Download](https://itunes.apple.com/us/app/supercrypta/id1299563325?ls=1&mt=12)
 
 Created this app to manage my cryptocurrencies and would like to share here.
 
@@ -17,7 +17,10 @@ To install Just download the Cryptonator.app.zip and extract and run
 It will be installed on Notification Center. Click Edit to add the 'SuperCrypta'.
 
 
-Tested on MacOS 10.12
+Thank you all beta testers! 
+
+Now the app is on mac app store
+
 
 
 ![alt text](https://raw.githubusercontent.com/supercrypta/supercrypta/master/Imagem1.jpg)
