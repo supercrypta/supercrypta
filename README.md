@@ -2,13 +2,6 @@
 
 Cryptocurrency portfolio for MacOS on Notification Center
 
-
-
-
-<a href="https://itunes.apple.com/us/app/supercrypta/id1299563325?ls=1&amp;mt=12">
-  <img border="0" height="60" alt="Download on AppStore" src="DownloadIco.png">
-</a>
-
 Created this app to manage my cryptocurrencies and would like to share here.
 
 A Stocks like application for Mac OS for cryptocurrency.
@@ -41,6 +34,12 @@ LTC = LQRBruBi9TDHj62U46DU3TNN6fXJrrDyJZ
 ETH and ETH tokes = 0x4c77a2A8a570D0066A57a5Cf58bE590e7b9D1A5c
 
 ᕕ( ᐛ )ᕗ
+
+
+
+<a href="https://itunes.apple.com/us/app/supercrypta/id1299563325?ls=1&amp;mt=12">
+  <img border="0" height="60" alt="Download on AppStore" src="DownloadIco.png">
+</a>
 
 
 All data is from CoinMarketCap 
