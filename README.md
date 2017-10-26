@@ -2,7 +2,7 @@
 
 Cryptocurrency portfolio for MacOS on Notification Center
 
-Download comming soon
+ - coming soon on mac app store
 
 Created this app to manage my cryptocurrencies and would like to share here.
 
