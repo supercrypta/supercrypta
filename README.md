@@ -2,7 +2,12 @@
 
 Cryptocurrency portfolio for MacOS on Notification Center
 
- [Download link](https://itunes.apple.com/us/app/supercrypta/id1299563325?ls=1&mt=12)
+
+
+
+<a href="https://itunes.apple.com/us/app/supercrypta/id1299563325?ls=1&amp;mt=12">
+  <img border="0" height="60" alt="Download on AppStore" src="DownloadIco.png">
+</a>
 
 Created this app to manage my cryptocurrencies and would like to share here.
 
