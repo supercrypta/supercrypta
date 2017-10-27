@@ -2,30 +2,23 @@
 
 Cryptocurrency portfolio for MacOS on Notification Center
 
-Created this app to manage my cryptocurrencies and would like to share here.
 
-A Stocks like application for Mac OS for cryptocurrency.
+Cryptocurrency Portfolio for macOS' Notification Center
 
-You can see you portifolio value on USD, BTC, ETH and your native currency(ex: EUR, BRL, ect)
+Keep track of your cryptocurrencies directly from your Mac's Notification Center,
 
-Also have a nice calculator 
+Show cryptocurrency change value in the last 24h in USD, BTC, ETH or a custom Fiat currency(ex: Euro)
 
-To install Just download the Cryptonator.app.zip and extract and run
+Convert or do a math calculation from hundreds of cryptocurrencies to BTC, ETH, USD or a custom fiat currency
 
-It will be installed on Notification Center. Click Edit to add the 'SuperCrypta'.
+Easily view your gains in the last 24h
 
+Display your portfolio's overall profit in the last 24h
 
-Thank you all beta testers! 
-
-Now the app is on mac app store
+Show all data in BTC,  ETH, USD or a custom Fiat currency
 
 
-
-![alt text](https://raw.githubusercontent.com/supercrypta/supercrypta/master/Imagem1.jpg)
-
-
-
-if you use it and like 'it, please consider making a donation
+if you use it and like 'it, please consider making a small donation
 
 BTC = 1MYZDEpaE7157njrvq8QBmbrgUMB3SSuhx
 
@@ -33,13 +26,14 @@ LTC = LQRBruBi9TDHj62U46DU3TNN6fXJrrDyJZ
 
 ETH and ETH tokes = 0x4c77a2A8a570D0066A57a5Cf58bE590e7b9D1A5c
 
-ᕕ( ᐛ )ᕗ
-
-
 
 <a href="https://itunes.apple.com/us/app/supercrypta/id1299563325?ls=1&amp;mt=12">
   <img border="0" height="60" alt="Download on AppStore" src="DownloadIco.png">
 </a>
 
 
-All data is from CoinMarketCap 
+
+
+
+
+All cryptocurrency data is from CoinMarketCap 
