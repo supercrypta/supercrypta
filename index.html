@@ -2,79 +2,359 @@
 <html lang="en">
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108375007-1"></script>
+    <!--     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108375007-1"></script> -->
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-108375007-1');
+    /*
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-108375007-1');
+    
+    */
+    
     </script>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="cryptocurrency tracking for mac">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="https://supercrypta.github.io/supercrypta/favicon.ico" />
-
+    <link rel="shortcut icon" href="favicon.ico" />
     <title>Super Crypta</title>
-
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="web/css/bootstrap.min.css">
+    <!--      <link href="web/css/cryptodonate.css" rel="stylesheet"/> -->
+    <link href="web/css/base.css" rel="stylesheet"/>
+    
+    <link href="web/css/cryptodonate.css" rel="stylesheet"/>
 
-     <link href="web/css/cryptodonate.css" rel="stylesheet"/>
-     <link href="web/css/cryptodonate.dark.css" rel="stylesheet"/>
-
+    <link href="web/css/cryptodonate.dark.css" rel="stylesheet"/>
+    
+    
+    
+    
+    
+    <style>
+    
+    .vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+    }
+    .fundoGradiente {
+    
+    /*      background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%); */
+    background: linear-gradient(141deg,  #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    
+    }
+    
+    .fundoGradienteBlack {
+    
+    /*      background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%); */
+/*     	background: linear-gradient(141deg, #1773b1 0%, #185e75 71.02%); */
+    	background-color: #343a40;
+    	
+    	
+    	color: white;
+    
+    }
+    
+    
+    
+    </style>
   </head>
-
   <body>
-
-<div id="google_translate_element"></div><script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-}
-</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-        
-        
-      <div class="jumbotron">
-          <div class="col-sm-9 mx-auto">
-              <h1>Super Crypta</h1>
-              <h5>Cryptocurrency Portfolio for macOS' Notification Center</h5>
+    <div id="google_translate_element"></div><script type="text/javascript">
+    function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+    }
+    </script>
+    <!--
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    -->
+    
+    
+    
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#"><img src="web/img/logo_supercrypta_128.png" width="50"/></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Super Crypta <span class="sr-only"></span></a>
+          </li>
+          
+          
+           <li class="nav-item ">
+            <a class="nav-link" href="#guide">Video Guide <span class="sr-only"></span></a>
+          </li>
+          
+          <li class="nav-item ">
+            <a class="nav-link" href="#support">Support <span class="sr-only"></span></a>
+          </li>
+          
+         
+          
+          
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item">
             
-              <p style="padding-top: 5px">
+            <a class="nav-link" href="https://itunes.apple.com/us/app/supercrypta/id1299563325?ls=1&mt=12">
+              <img border="0" height="50" alt="Download on AppStore" src="web/img/download_apple.png" >
+            </a>
+            
+          </li>
+          
+        </ul>
+      </div>
+    </nav>
+    
+    
+    <!--
+    <main role="main" class="container">
+      <div class="starter-template">
+        <h1>Bootstrap starter template</h1>
+        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+      </div>
+      
+      
+      
+      
+      
+      
+    </main>
+    -->
+    
+    
+    <div class="container" style="padding-top: 100px">
+      <div class="row starter-template">
+        
+        
+        
+        
+        <div class="col-md-8">
+          <p>
+            <img  class="img-fluid" src="web/img/mac_cotacao.png"/>
+          </p>
+        </div>
+        
+        
+        <div class="col-md-4 d-flex align-items-center">
+          <div>
+            <h2>Market</h2>
+            <p>Keep track of your cryptocurrencies directly from your Mac's Notification Center</p>
+          </div>
+        </div>
+        
+        
+      </div>
+      <hr>
+    </div>
+    
+    
+    <div class="container fundoGradiente">
+      <div class="row starter-template">
+        
+        
+        
+        <div class="col-md-4 d-flex align-items-center" >
+          <div>
+            <h2>Search</h2>
+            <p >Thousands of cryptocurrencies to add in your portfolio.</p>
+          </div>
+        </div>
+        
+        
+        <div class="col-md-8">
+          <p> <img  class="img-fluid" src="web/img/mac_search.png" </p>
+        </div>
+        
+      </div>
+      <hr>
+    </div>
+    
+    
+    <div class="container" >
+      <div class="row starter-template">
+        
+        
+        
+        
+        <div class="col-md-8">
+          <p> <img  class="img-fluid" src="web/img/mac_portfolio.png" </p>
+        </div>
+        
+        
+        <div class="col-md-4 d-flex align-items-center">
+          <di>
+          <h2>Portfolio</h2>
+          <p>Keep track of your portfolio gains and losses.</p>
+          </di>
+        </div>
+        
+        
+      </div>
+      <hr>
+    </div>
+    <div class="container fundoGradiente">
+      <div class="row starter-template">
+        
+        
+        
+        <div class="col-md-4 d-flex align-items-center" >
+          <div>
+            <h2>Conversion and Calculator</h2>
+            <p>Convert or do a math calculation from hundreds of cryptocurrencies to any cryptocurrency or a custom fiat currency
+            </p>
+          </div>
+        </div>
+        
+        
+        <div class="col-md-8">
+          <p> <img  class="img-fluid" src="web/img/mac_convertion_calculator.png" </p>
+        </div>
+        
+        
+      </div>
+      <hr>
+    </div>
+    
+    
+    
+    
+    <div class="container" >
+      <div class="row starter-template">
+        
+        
+        
+        <div class="col-md-8">
+          <p> <img  class="img-fluid" src="web/img/mac_custom_currency.png" </p>
+        </div>
+        
+        
+        <div class="col-md-4 d-flex align-items-center">
+          <di>
+          <h2>Multiple Formats</h2>
+          <p>You can see your portfolio's gains and losses and market value converted to a cryptocurrency or a custom fiat currency.</p>
+          </di>
+        </div>
+        
+        
+      </div>
+      <hr>
+    </div>
+    
+    
+    
+    <div class="container fundoGradiente">
+      <div class="row starter-template">
+        
+        
+        <div class="col-md-4 d-flex align-items-center" >
+          <div>
+            <h2>Monitor your profit</h2>
+            <p>See your profit in the last 24 hours
+            </p>
+          </div>
+        </div>
+        
+        
+        <div class="col-md-8">
+          <p> <img  class="img-fluid" src="web/img/mac_gains.png" </p>
+        </div>
+        
+        
+        
+      </div>
+      <hr>
+    </div>
+    
+    
+    <div class="container" >
+      <div class="row starter-template">
+        
+        
+        
+        <div class="col-md-8">
+          <p> <img  class="img-fluid" src="web/img/mac_price24.png" </p>
+        </div>
+        
+        
+        <div class="col-md-4 d-flex align-items-center">
+          <di>
+          <h2>Price change in the last 24 hours</h2>
+          <p>Check price change in the last 24 hours in any format.</p>
+          </di>
+        </div>
+        
+        
+      </div>
+      <hr>
+    </div>
+    
+    
+    
+    
+    <div class="container fundoGradiente" id="guide">
+      <div class="row starter-template">
+        
                 
-                   <a href="https://itunes.apple.com/us/app/supercrypta/id1299563325?ls=1&mt=12">
-                      <img border="0" height="60" alt="Download on AppStore" src="DownloadIco.png" >
-                    </a>
-              </p>
-            
-              <video style="padding-top: 10px; padding-bottom: 20px" width="304" height="600" autoplay loop>
+        
+        <div class="col-md-8">
+          <p>  
+	          <video style="padding-top: 10px; padding-bottom: 20px" width="304" height="600" autoplay loop>
                     <source src="web/supercrypta.mp4" type="video/mp4">
               </video>
-            
-              <p id="DonateAndHelpDevelopment">
-                if you use it and like 'it, please consider making a small donation:
-              </p>
-<!-- 
-              <div class="row">
-                  <div class="col-sm-6 col-md-3">
-                    <div class="btc"></div>
-                  </div>
-                  <div class="col-sm-6 col-md-3">
-                    <div class="eth"></div>
-                  </div>
-                  <div class="col-sm-6 col-md-3">
-                    <div class="ltc"></div>
-                  </div>
-                  <div class="col-sm-6 col-md-3">
-                    <div class="xmr"></div>
-                  </div>
-              </div> -->
-
-           
- 
-      <div id="content">
-            <table>
+              
+           </p>
+        </div>
+        
+        
+        <div class="col-md-4 d-flex align-items-center">
+          <di>
+          <h2>Easy to use</h2>
+          </di>
+        </div>
+        
+        
+        
+        
+        
+      </div>
+      <hr>
+    </div>
+    
+    
+    
+    
+    
+    
+    <div class="container fundoGradienteBlack" id="support">
+      <div class="row" style="padding-top: 20px">
+        
+        
+   
+        
+        
+        <div class="col-md-12">
+	        <h4>KEY FEATURES</h4>
+          <ul>
+	          <li>Coins from <a target="_blank" href="https://coinmarketcap.com">coinmarketcap</a> </li>
+	          <li>Convert values between cryptocurrencies or fiat currency </li>
+	          <li>Cryptocurrency Calculator</li>
+	          <li>Easy to use </li>
+          </ul>
+          
+          <h4>Support</h4>
+	      <ul>
+	          <li>Open a issue ticket <a target="_blank" href="https://github.com/supercrypta/supercrypta.github.io/issues">here</a> </li>
+          </ul> 
+          
+          
+          <h4>Donate a cup of coffee</h4>
+          
+          <table>
                 <tbody>
                     <tr>
                         
@@ -99,9 +379,72 @@ function googleTranslateElementInit() {
                    
                 </tbody>
             </table>
-        </div> 
+          
+      
+        
+          
+	         
+        </div>
+        
+        
+        
+        
+        
+      </div>
+      <hr>
+    </div>
+    
+    
+    
+    
+    
+<!--
+        
+    <div class="container" >
+      <div class="row starter-template">
+        
+        
+        
+        <div class="col-md-12">
+              <div class="container">
+		      <div class="row starter-template" id="content">
+		        
+		        
+		        <div class="col-md-3 btc"></div>
+		        <div class="col-md-3 eth"></div>
+		        <div class="col-md-3 ltc"></div>
+		        <div class="col-md-3 xmr"></div>
+		        
+		      </div>
+		    </div>
+        </div>
+        
+  
+        
+        
+      </div>
+      <hr>
+    </div>
+    
+-->
+    
+    
+    
 
-        <script>
+    
+    
+    
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+     <script>
             !function(c){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.onload=c,t.src="web/cryptodonate.js";var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(t,e)}(function(){
                     var btcElems = document.getElementsByClassName('btc');
                     for(var i = 0;i < btcElems.length;i++) {
@@ -155,7 +498,7 @@ function googleTranslateElementInit() {
                             },
                             buttonLarge: ethElems[i].className.match('large') !== null,
 
-                            buttonClass: ethElems[i].className.match('dark') !== null ? 'dark' : '',
+                            buttonClass: ethElems[i].className.match('dark') !== null ? 'darkx' : '',
                             dialogClass: ethElems[i].className.match('dark') !== null ? 'dark' : ''
                         });
                         cd.appendTo(ethElems[i]);
@@ -216,39 +559,21 @@ function googleTranslateElementInit() {
                     }
               });
         </script>
-
-
-
-
-        <small style="padding-top: 20px">Cryptocurrency data from <a href="https://coinmarketcap.com" target="_blank">CoinMarketCap</a></small>
-
-
-
-            
-        </div>
-
-
-
-    </div>
-
-
-
-
-
-
+    
+    
+    
+    
+    
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-      
-       <!-- Optional JavaScript -->
+    
+    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-      
-      
-
+    <script src="web/js/jquery-3.2.1.slim.min.js" ></script>
+    <script src="web/js/popper.min.js" ></script>
+    <script src="web/js/bootstrap.min.js"></script>
+    
+    
   </body>
 </html>
-
-
