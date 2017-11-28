@@ -20,6 +20,7 @@
     <title>Super Crypta</title>
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="web/css/bootstrap.min.css">
+    <link rel="stylesheet" href="web/css/colorbox.css">
     <!--      <link href="web/css/cryptodonate.css" rel="stylesheet"/> -->
     <link href="web/css/base.css" rel="stylesheet"/>
     
@@ -552,6 +553,8 @@
                         cd.appendTo(xmrElems[i]);
                     }
               });
+
+
         </script>
     
     
@@ -564,9 +567,130 @@
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="web/js/jquery-3.2.1.slim.min.js" ></script>
+<!--     <script src="web/js/jquery-3.2.1.slim.min.js" ></script>
+ -->        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <script src="web/js/jquery.colorbox.js" ></script>
+
     <script src="web/js/popper.min.js" ></script>
     <script src="web/js/bootstrap.min.js"></script>
+
+
+
+    <script type="text/javascript">
+
+        jQuery.colorbox.settings.maxWidth  = '95%';
+        jQuery.colorbox.settings.maxHeight = '95%';
+
+        // ColorBox resize function
+        var resizeTimer;
+        function resizeColorBox()
+        {
+          if (resizeTimer) clearTimeout(resizeTimer);
+          resizeTimer = setTimeout(function() {
+              if (jQuery('#cboxOverlay').is(':visible')) {
+                  jQuery.colorbox.load(true);
+              }
+          }, 300);
+        }
+
+        // Resize ColorBox when resizing window or changing mobile device orientation
+        jQuery(window).resize(resizeColorBox);
+        window.addEventListener("orientationchange", resizeColorBox, false);
+
+
+
+      
+
+          $(document).ready(function(){
+              console.log("init 1");
+
+                // $(".group2").colorbox({rel:'group2', transition:"fade"});
+
+            /*
+
+      <div class="row starter-template">
+
+        <div class="col-md-4 d-flex align-items-center" >
+          <div>
+            <h2>Monitor your profit</h2>
+            <p>See your profit in the last 24 hours. 
+            </p>
+          </div>
+        </div>
+        
+        
+        <div class="col-md-8">
+          <p> <img  class="img-fluid" src="web/img/mac_gains.png" </p>
+        </div>
+
+            */
+
+            $("div.col-md-8 p img.img-fluid").each(function(index, item){
+
+
+
+                var anchor = $('<a/>').attr({'href': $(item).attr("src") }).colorbox(
+                  {
+                    rel:'gallery',
+                    height: "100%", 
+                    transition:"fade",
+                    title: function() {
+
+                        var texto  = $(item).closest('div.row').find('h2').text();
+
+                        var texto2 = ""
+
+                        $(item).closest('div.row').find("p").each(function(index2, item2){
+                           texto2 = texto2 + " " + $(item2).text()
+                        })
+
+                        // return texto + " - " + texto2.trim()
+
+                        return " " + texto
+//                        return $(item).closest('div.row').find('h2').text();
+
+                        // return $(item).closest('div.row').find('div.col-md-4 div h2').text();
+                      // console.log("ZAMBIA ", $(item).parent().parent().parent().parent().find('div.col-md-4 div h2'))
+                      // console.log("ZAMBIA2 ", $(item).closest('div.row').find('h2'))
+                      // return "teste2 " + index
+                    }
+
+                  }
+                );
+
+
+                $(item).wrap(anchor);
+
+
+
+
+                // $(item).colorbox( {
+                //     rel:'gallery', 
+                //     title: function() {
+                //       return "teste"
+                //     },
+                //     href : function(){
+                //       console.log($(item).attr('src'))
+                //       return $(item).attr('src')
+                //     }
+                // })
+
+                console.log("imagem", $(item).attr("src"))
+
+
+            })
+
+            // $("a.gallery").colorbox({rel: 'gal', title: function(){
+            //   var url = $(this).attr('href');
+            //   return '<a href="' + url + '" target="_blank">Open In New Window</a>';
+            // }});
+
+
+
+          })
+
+    </script>
     
     
   </body>
