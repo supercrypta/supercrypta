@@ -1,0 +1,206 @@
+<html>
+<head>
+  <!-- Prebid Config Section START -->
+  <!-- Make sure this is inserted before your GPT tag -->
+  <script> 
+    var PREBID_TIMEOUT = 700;
+
+    var adUnits = [{
+	  code: 'div-gpt-ad-1',     
+	  sizes: [[300, 250]],
+	  bids: [{
+	    bidder: 'audienceNetwork',
+	    params: {
+	      placementId: '168378027272176_168409013935744',
+	      testmode: false,
+	      format: 'native'
+	    }
+	  }]
+	}];
+    
+    var pbjs = pbjs || {};
+    pbjs.que = pbjs.que || [];
+
+  </script>
+  <!-- Prebid Config Section END -->
+  
+  <!-- Prebid Boilerplate Section START. No Need to Edit. -->
+  <script type="text/javascript" src="web/js/prebid.js" async></script>
+  <script>
+/*
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    googletag.cmd.push(function() {
+        googletag.pubads().disableInitialLoad();
+    });
+
+    pbjs.que.push(function() {
+        pbjs.addAdUnits(adUnits);
+        pbjs.requestBids({
+            bidsBackHandler: sendAdserverRequest
+        });
+    });
+
+    function sendAdserverRequest() {
+        if (pbjs.adserverRequestSent) return;
+        pbjs.adserverRequestSent = true;
+        googletag.cmd.push(function() {
+            pbjs.que.push(function() {
+                pbjs.setTargetingForGPTAsync();
+                googletag.pubads().refresh();
+            });
+        });
+    }
+
+    setTimeout(function() {
+        sendAdserverRequest();
+    }, PREBID_TIMEOUT);
+*/
+
+
+
+
+
+var w = window;
+for (i = 0; i < 10; i++) {
+  w = w.parent;
+  if (w.pbjs) {
+    try {
+      w.pbjs.renderAd(document, '%%PATTERN:hb_adid%%');
+      break;
+    } catch (e) {
+      continue;
+    }
+  }
+}
+
+
+  </script>
+  <!-- Prebid Boilerplate Section END -->
+
+  <script>
+/*
+    (function () {
+        var gads = document.createElement('script');
+        gads.async = true;
+        gads.type = 'text/javascript';
+        var useSSL = 'https:' == document.location.protocol;
+        gads.src = (useSSL ? 'https:' : 'http:') +
+                '//www.googletagservices.com/tag/js/gpt.js';
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(gads, node);
+    })();
+*/
+  </script>
+
+  <script>
+/*
+    googletag.cmd.push(function () {
+        googletag.defineSlot('/19968336/header-bid-tag-0', [[300, 250], [300, 600]], 'div-gpt-ad-1460505748561-0').addService(googletag.pubads());
+
+        googletag.defineSlot('/19968336/header-bid-tag1', [[728, 90], [970, 90]], 'div-gpt-ad-1460505661639-0').addService(googletag.pubads());
+
+        googletag.pubads().enableSingleRequest();
+        googletag.enableServices();
+    });
+*/
+    
+    
+  </script>
+  
+  
+  
+  
+  <style>
+    .thirdPartyRoot {
+      background-color: white;
+      color: #444;
+      border: 1px solid #ccc;
+      border-left: 0;
+      border-right: 0;
+      font-family: sans-serif;
+      font-size: 14px;
+      line-height: 16px;
+      width: 320px;
+      text-align: left;
+      position: relative;
+    }
+    .thirdPartyMediaClass {
+      width: 320px;
+      height: 168px;
+      margin: 12px 0;
+    }
+    .thirdPartySubtitleClass {
+      font-size: 18px;
+      -webkit-line-clamp: 1;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      height: 16px;
+      -webkit-box-orient: vertical;
+    }
+    .thirdPartyTitleClass {
+      padding-right: 12px;
+      line-height: 18px;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      height: 36px;
+      -webkit-box-orient: vertical;
+    }
+    .thirdPartyCallToActionClass {
+      background-color: #416BC4;
+      color: white;
+      border-radius: 4px;
+      padding: 6px 20px;
+      float: right;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 11px;
+    }
+    .fbDefaultNativeAdWrapper {
+      font-size: 12px;
+      line-height: 14px;
+      margin: 12px 0;
+      height: 36px;
+      vertical-align: top;
+    }
+  </style>
+  
+</head>
+
+<body>
+<h2>Prebid.js Test</h2>
+<!--
+<h5>Div-1</h5>
+<div id='div-gpt-ad-1460505748561-0'>
+    <script type='text/javascript'>
+        googletag.cmd.push(function() { googletag.display('div-gpt-ad-1460505748561-0'); });
+    </script>
+</div>
+
+<h5>Div-2</h5>
+<div id='div-gpt-ad-1460505661639-0'>
+    <script type='text/javascript'>
+        googletag.cmd.push(function() { googletag.display('div-gpt-ad-1460505661639-0'); });
+    </script>
+</div>
+-->
+
+
+
+
+<div class="thirdPartyRoot">
+  <a class="fbAdLink">
+    <div class="fbAdMedia thirdPartyMediaClass"></div>
+    <div class="fbAdSubtitle thirdPartySubtitleClass"></div>
+    <div class="fbDefaultNativeAdWrapper">
+      <div class="fbAdCallToAction thirdPartyCallToActionClass"></div>
+      <div class="fbAdTitle thirdPartyTitleClass"></div>
+    </div>
+  </a>
+</div> 
+
+</body>
+</html>
